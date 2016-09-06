@@ -1,0 +1,26 @@
+/* Banner */
+.about-banner {
+  text-align: center;
+  height: 180px;
+  background-color: #3cbdbc;
+  padding-top: 0px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.about-banner h1 {
+  font-size: 120px;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.par-right {
+  margin-left: 30px;
+}

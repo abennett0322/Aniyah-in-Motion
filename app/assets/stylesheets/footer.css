@@ -1,0 +1,25 @@
+/* Footer */
+.footer {
+  height: 100px;
+  padding: 40px 0px 100px;
+  margin-top: 80px;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.footer p {
+  float: left;
+  width: 33%;
+}
+
+.a-center {
+  text-align: center;
+}
+
+.a-right {
+  text-align: right;
+}
+
+.footer a {
+  color: #804380;
+}

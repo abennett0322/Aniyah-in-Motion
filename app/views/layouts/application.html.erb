@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AniyahInMotion</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+  	<!-- Header -->
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="home">
+            	<img class="head-logo" src="aniyahInMotion/app/assets/images/logo.png" height="97" width="228" />
+            </a>
+        	</div>
+          <ul class="nav nav-pills">
+            <li><a href="about">About</a></li>
+            <li><a href="products">Products</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+
+    <!-- Body -->
+	<%= yield %>
+
+	<!-- Footer -->
+	<div class="footer">
+      <div class="container">
+        <p>2016 AniyahInMotion</p>
+        <p class="a-center"><a href="home">AniyahInMotion.com</a></p>
+        <p class="a-right">San Antonio, TX</p>
+      </div>
+    </div>
+
+  </body>
+</html>

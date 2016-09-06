@@ -1,0 +1,31 @@
+/* Header */
+.header {
+  padding: 20px;
+}
+
+.head-logo {
+  margin-left: -50px;
+}
+
+.nav {
+  width: 500px;
+  float: right
+}
+
+.nav-pills li a {
+  color: #804380;
+  border: 1px solid #804380;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li>a:hover,
+.home-banner .btn:hover {
+  background-color: #71d045 !important;
+  box-shadow:0 2px 4px rgba(0,0,0,.5) !important; 
+  color:#fff !important;
+}
+

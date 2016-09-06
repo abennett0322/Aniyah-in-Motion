@@ -1,0 +1,35 @@
+/* Banner */
+.services-banner {
+  text-align: center;
+  height: 180px;
+  background-color: #71d045;
+  padding-top: 0px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.services-banner h1 {
+  font-size: 120px;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services .section {
+	margin-left: -50px;
+}
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+
+p {
+  font-size: 17px;
+}
+
+.par-right {
+  margin-left: 90px;
+}

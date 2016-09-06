@@ -1,0 +1,86 @@
+/* Jumbotron */
+.home-jumbotron {
+  height: 620px;
+  background: url(aniyahInMotion/app/assets/images/banner.png) no-repeat center center;
+  background-size: cover;
+  padding-top: 25px;
+}
+
+.home-jumbotron .container {
+  max-width: 100%;
+}
+
+.home-jumbotron h2 {
+  color: #fff;
+  font-size: 60px;
+  text-align: right;
+  margin: 80px 0 0 30px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 200px;
+}
+
+
+/* Banner */
+.home-banner {
+  text-align: center;
+  margin-top: -30px;
+  background-color:#3cbdcb;
+  height:180px; 
+  color: #fff;
+}
+
+.home-banner h3 {
+  margin-top: 40px;
+}
+
+.home-banner .btn {
+  background-color: #804380;
+  border: 0px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.testimonials h3 {
+  color: #71d045;
+}
+
+.testimonials h4 {
+  color: #3cbdbc;
+  margin: 30px 0px 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.testimonials p {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}

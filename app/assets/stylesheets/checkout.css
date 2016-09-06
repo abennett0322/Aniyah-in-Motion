@@ -1,0 +1,40 @@
+/* Banner */
+.checkout-banner {
+  text-align: center;
+  height: 180px;
+  background-color: #3cbdbc;
+  padding-top: 0px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.checkout-banner h1 {
+  font-size: 120px;
+}
+
+/* Form */
+.checkout-form {
+	padding-top: 50px;
+	font-size: 25px;
+
+}
+
+form input.form-control { 
+  border-radius:0px; 
+  font-size: 20px;
+}
+
+.checkout-form .btn { 
+  font-size: 25px;
+  background-color: #804380;
+  border: 0px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.checkout-form .btn:hover {
+  background-color: #71d045 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5) !important; 
+  color: #fff !important;
+}
